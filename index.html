@@ -75,17 +75,13 @@
                                     <div class="header-right-btn d-none d-lg-block ml-20">
                                         <a href="#" class="btn header-btn">Une-te!</a>
                                     </div>
-                                    <script>
-
-                                        function pop_up() {
-                                        
-                                        jan=open("pagina.htm","dd","width=500,height=400");
-                                        
-                                        }
-                                        
-                                        </script>
-                                        
-                                        <a href="pop_up()">clique aqui para abrir a pop_up</a>
+                                    <a class="btn" onclick="pop()">Show Box</a>
+  <div id="box">
+    <i class="fas fa-check-circle"></i> 
+    <h1>Good Job</h1>
+    <a class="close" onclick="pop()">Close Box</a>
+  </div>
+<script src="app.js"></script>
                                 </div>
                             </div> 
                             <!-- Mobile Menu -->
